@@ -58,7 +58,7 @@ aside img {
 }
 
 aside h2 {
-    position: relative;
+    position: absolute;
     top: 4px;
     text-align: center;
 }
