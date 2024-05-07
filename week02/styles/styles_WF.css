@@ -15,6 +15,7 @@
 
 .menu a{
 
+    color: var(--secondary-color);
     font-family: lato  ;
     text-decoration: none;
     color: aliceblue;
@@ -58,8 +59,8 @@
 :root {
     --primary-color: #fff;
     --secondary-color: #000;
-    --accent1-color: #000;
-    --accent2-color: #000;
+    --accent1-color: #ff8f8f;
+    --accent2-color: #2e2e2e;
     --nav-background-color: #000;
     --nav-link-color: #000;
     --nav-hover-link-color: #000;
