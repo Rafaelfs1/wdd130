@@ -55,5 +55,13 @@
 }
 
 :root {
-    primary-color, secondary-color, accent1-color, accent2-color, heading-font, paragraph-font, nav-background-color, nav-link-color, nav-hover-link-color, and nav-hover-background-color
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --accent1-color: #000;
+    --accent2-color: #000;
+    --nav-background-color: #000;
+    --nav-link-color: #000;
+    --nav-hover-link-color: #000;
+    --nav-hover-background-color: #000;
 }
+heading-font, paragraph-font, 
