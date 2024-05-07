@@ -66,11 +66,11 @@ nav a:hover {
     --primary-color: #fff;
     --secondary-color: #000;
     --accent1-color: #ff8f8f;
-    --accent2-color: #2e2e2e;
+    --accent2-color: #ffffff;
     --nav-background-color: #000;
     --nav-link-color: #000;
-    --nav-hover-link-color: #000;
-    --nav-hover-background-color: #000;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #296bc2;
     --heading-font: lato, sans serif;
     --paragraph-font: lato, sans serif;
 }
