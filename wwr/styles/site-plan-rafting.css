@@ -61,3 +61,16 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --accent1-color: #ff8f8f;
+    --accent2-color: #2e2e2e;
+    --nav-background-color: #000;
+    --nav-link-color: #000;
+    --nav-hover-link-color: #000;
+    --nav-hover-background-color: #000;
+    --heading-font: lato, sans serif;
+    --paragraph-font: lato, sans serif;
+}
