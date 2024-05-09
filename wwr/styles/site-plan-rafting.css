@@ -10,20 +10,13 @@ h1 {
     font-family: var(--heading-font);
 }
 
-:root {
-    --primary-color: #288cd3;
-    --secondary-color: #e7c24f;
-    --accent1-color: #f0d993;
-    --accent2-color: #b6d0e2;
+#lato {
+    font-family: lato, sans-serif;
 
-    --heading-font: "Poetsen One", bold;
-    --paragraph-font: "Lato", sans-serif;
+}
 
-    --nav-bacground-color: #3289c7;
-    --nav-link-color: #ffffff;
-    --nav-hover-link-color: #4180d1; 
-    --nav-hover-background-color: #9adaff;
-
+#poetanOne {
+    font-family: "Poetsen One", sans-serif;
 }
 
 h1, h2, h3, h4, h5,h6 {
@@ -34,6 +27,10 @@ h1, h2, h3, h4, h5,h6 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+}
+
+#secundary_color {
+    color: var(--secondary-color);
 }
 
 p {
@@ -63,14 +60,17 @@ nav a:hover {
 }
 
 :root {
-    --primary-color: #fff;
-    --secondary-color: #000;
-    --accent1-color: #ff8f8f;
-    --accent2-color: #ffffff;
-    --nav-background-color: #000;
-    --nav-link-color: #000;
-    --nav-hover-link-color: #ffffff;
-    --nav-hover-background-color: #296bc2;
-    --heading-font: lato, sans serif;
-    --paragraph-font: lato, sans serif;
+    --primary-color: #288cd3;
+    --secondary-color: #e7c24f;
+    --accent1-color: #f0d993;
+    --accent2-color: #b6d0e2;
+
+    --heading-font: "Poetsen One", bold;
+    --paragraph-font: "Lato", sans-serif;
+
+    --nav-bacground-color: #3289c7;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #4180d1; 
+    --nav-hover-background-color: #9adaff;
+
 }
