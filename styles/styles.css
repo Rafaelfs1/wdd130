@@ -24,6 +24,7 @@ h1 {
     margin: 10px;
     color: steelblue;
 }
+
 img {
     width: 150px;
     height: auto;
@@ -73,6 +74,7 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
 /* Class Selectors */
 
 .box {
@@ -93,4 +95,5 @@ footer {
     font-weight: 900;
     padding: 10px 0;
 }
-  
+
+
