@@ -50,6 +50,10 @@ article {
     color: #ffffff;
 }
 
+header img {
+    width: 60px;
+}
+
 article img {
     position: relative ;
     width: 100px;
