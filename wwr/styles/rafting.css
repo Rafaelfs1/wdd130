@@ -98,8 +98,10 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-footer nav {
+footer a img {
     width: 50px;
+    text-decoration: none;
+    background-color: none;
 }
 
 :root {
