@@ -98,6 +98,10 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+footer nav {
+    width: 50px;
+}
+
 :root {
     --primary-color: #288cd3;
     --secondary-color: #e7c24f;
