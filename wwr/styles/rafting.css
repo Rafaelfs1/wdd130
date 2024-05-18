@@ -39,28 +39,31 @@ body {
 .bg-p {
     float: right;
     width: 200px;
+    border-radius: 10px;
 }
 
 .bg-p-2 {
     width: 250px;
-    padding: 0px;
-    display: flex;
-    align-content: center;
     border-radius: 10px;
 }
 
 .grid-history {
     padding-top: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
     align-items: center;
     gap: 50px;
+    
 }
 
 section {
     padding: 70px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+section p {
+    text-align: justify;
 }
 
 article {
@@ -117,7 +120,8 @@ nav {
 }
 
 .line {
-    padding-top: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
@@ -141,7 +145,7 @@ nav {
 }
 
 nav a {
-    display: block;
+    display: flex;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
