@@ -10,7 +10,7 @@ body {
     box-sizing: border-box;
 }
 nav {
-    background-color: rgb(39, 83, 119);
+    background-color: steelblue;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -28,13 +28,13 @@ nav a {
 h1 {
     margin: 10px;
     color: rgb(39, 83, 119);
-    border-bottom: 1px solid rgb(39, 83, 119);
+    border-bottom: 1px solid steelblue;
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid rgb(39, 83, 119);
+    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     margin: 10px;
@@ -109,7 +109,7 @@ footer {
 }
 
 .box h2 {
-    color: rgb(39, 83, 119);
+    color: steelblue;
     font-weight: 900;
     padding: 10px 0;
 }
