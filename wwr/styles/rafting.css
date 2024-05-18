@@ -28,7 +28,9 @@ body {
 }
 
 .bg-img {
-    display: block;
+    display: grid   ;
+    align-content: center;
+    align-items: center;
     width: 100%;
     height: auto;
     border-radius: 0 0 30px 30px;
@@ -44,6 +46,7 @@ body {
     padding: 0px;
     display: flex;
     align-content: center;
+    border-radius: 10px;
 }
 
 .grid-history {
@@ -72,9 +75,7 @@ article {
     color: #ffffff;
 }
 
-header img {
-    width: 60px;
-}
+
 
 article img {
     position: relative ;
@@ -95,6 +96,10 @@ header {
     padding: 20px;
     background-color: var(--accent1-color);
     display: flex;
+}
+
+header img {
+    width: 60px;
 }
 
 .grid-menu {
