@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A quiz">
+    <meta name="author" content="Rafael Silva">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <h1>HTML and CSS Quiz</h1>
+    <form id="quizForm">
+        <div class="question">
+            <label for="q1"><strong>1. </strong>What does the acronym CSS stand for?</label>
+            <input type="text" id="q1" name="q1" required>
+        </div>
+        <div class="question">
+            <label for="q2"><strong>2.</strong>How are id and class attributes selectes in CSS</label>
+            <textarea id="q2" name="q2" rows="4" required></textarea>
+        </div>
+        <div class="question2">
+            <label for="q3"><strong>3. </strong>Which of the fallowing is a alid CSS comment?</label>
+            <select id="q3" name="q3" required>
+                <option value="" selected disabled>Choose one...</option>
+                <option value="Cascading Style Sheets">Cascading Style Sheets</option>
+                <option value="Creative Style Selector">Creative Style Selector</option>
+                <option value="Computer Science Syntax">Computer Science Syntax</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q4"><strong>4. </strong>How many HTML elements are there in the HTML5 standard?</label>
+            <img src="images/print.png" alt="print">
+            <input type="number" id="q4" name="q4" required>
+        </div>
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>

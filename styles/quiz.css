@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poetsen+One&display=swap');
+
+body {
+    font-family: lato, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #142aa1;
+    font-weight: bold;
+}
+
+form {
+    max-width: 600px;
+    height: 460px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    margin-bottom: 20px;
+    width: 580px;
+}
+
+.question2 {
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.question img {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+strong {
+    color: #142aa1;
+    font-weight: 800;
+    font-size: medium;
+    
+}
+
+button[type="submit"] {
+    background-color: #142aa1;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+    width: 100%;
+    font-size: medium;
+}
+
+button[type="submit"]:hover {
+    background-color: #2947ee;
+}
