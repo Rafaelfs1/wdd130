@@ -293,7 +293,7 @@ form {
 }
 .form-p {
     font-family: var(--paragraph-font);
-    font-size: 0.9em;
+    font-size: 1em;
     position: relative;
     text-align: center;
     padding: 4% 0;
