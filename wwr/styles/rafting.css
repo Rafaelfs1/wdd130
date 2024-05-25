@@ -276,7 +276,7 @@ form {
 }
 .form-group button {
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #0064cf;
     color: #fff;
     border: none;
     border-radius: 15px;
@@ -356,17 +356,17 @@ footer nav {
 /* --------- root ---------- */
 
 :root {
-    --primary-color: #288cd3;
+    --primary-color: #1c77b8;
     --secondary-color: #e7c24f;
     --accent1-color: #f0d993;
     --accent2-color: #b6d0e2;
 
     --heading-font: "Poetsen One", bold;
-    --paragraph-font: "Lato", sans-serif;
+    --paragraph-font: "Lato", bold;
 
-    --nav-bacground-color: #3289c7;
+    --nav-bacground-color: #216a9e;
     --nav-link-color: #ffffff;
-    --nav-hover-link-color: #4180d1; 
+    --nav-hover-link-color: #3486f1; 
     --nav-hover-background-color: #9adaff;
 
 }
