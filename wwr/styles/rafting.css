@@ -11,7 +11,7 @@ body {
     max-width: 1200px;
     padding: 0px;
     margin: 0 auto; 
-    background-color:#fff8e6 ;
+    background-color:#eeeeee ;
 }
 
 .hero {
@@ -66,6 +66,43 @@ section p {
     text-align: justify;
 }
 
+/* ----------- employee --------------- */
+
+.employee-list {
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
+    background-color: #dbdbdb41;
+    border-radius: 50px;
+    margin: 20px;
+    align-items: center;
+}
+
+.employee-div {
+    text-align: center;
+    
+}
+
+.employee-list p {
+    text-align: center;
+}
+
+.employee-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.employee-h2 {
+    font-size: 4em;
+    padding: opx;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #f0d993;
+    border-radius: 40px;
+}
+
 article {
     position: absolute;
     top: 30%;
@@ -77,8 +114,52 @@ article {
     border-radius: 20px;
     color: #ffffff;
 }
+/* ----------- maps --------------- */
+.map {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.map h2 {
+    font-size: 2em;
+    bottom: 20px;
+}
+.map p {
+    text-align: left;
+}
+.map h3 {
+    font-size: 2em;
+    padding-bottom: 10%;
+}
 
+.map-address {
+    padding-left: 10%;
+}
 
+.map-name {
+    padding: 10px 0;
+}
+.sub-title-map {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.map-Address-grid {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    row-gap: 5px;
+    align-items: center;
+}
+.map img {
+    opacity: 20%;
+}
+iframe {
+    display: flex;
+    position: relative;
+    border: 0px solid #ffffff;
+}
 
 article img {
     position: relative ;
@@ -98,7 +179,7 @@ h1, h2, h3, h4, h5,h6 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
-    display: flex;
+    
 }
 
 header img {
@@ -107,7 +188,8 @@ header img {
 
 .grid-menu {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 2fr;
+
 }   
 
 
@@ -168,8 +250,6 @@ footer {
     grid-template-columns: 1fr 1fr;
     align-items:center;
     width: 1200px;
-    padding-left: 70px;
-    padding-bottom: 80px;
     background-color: #f0d993;
 }
 
@@ -180,7 +260,75 @@ footer a img {
 
 main{
     position: relative;
+    padding: 0px 0px;
+
 }
+
+
+
+/* -------------form ------------- */
+
+form {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form-group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+.form-group button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
+.form-title {
+    font-size: 3em;
+    position: relative;
+    text-align: center;
+    padding: 4% 0;
+}
+.form-p {
+    font-family: var(--paragraph-font);
+    font-size: 0,9em;
+    position: relative;
+    text-align: center;
+    padding: 4%% 0;
+}
+.form-line-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+.form-bold {
+    font-weight: bold;
+}
+
+
+/* ---------- section --------------- */
 
 section h2 {
     width: 40%;
@@ -188,6 +336,7 @@ section h2 {
     margin: 0 30% 0 30% ;
     text-align: center;
 }
+
 
 footer nav {
     background-color: var(--accent1-color)

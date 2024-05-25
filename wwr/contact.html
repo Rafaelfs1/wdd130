@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us - Rafting Site Plan | Rafael Silva</title>
+        <meta name="description" content="Got something to say? Contact us! Fill out the form below, and we'll be in touchs">
+        <meta name="author" content="Rafael Silva">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header class="grid-menu">
+            <div class="section-grid-menu-1"><img src="images/logo.png" alt="logo"></div>
+            <div class="section-grid-menu">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">about Us</a>
+                    <a href="trips.html">Trips</a>
+                    <a href="contact.html">Contact</a>
+                </nav> 
+            </div>
+        </header>
+        <main>
+            <section class="map">
+                <div class="map-address">
+                    <h3 class="map-name">White Water Rafting INC</h3>
+                    <p class="sub-title-map"><strong>Mountain View, United States</strong></p>
+                        <div class="map-Address-grid">
+                            <img src="images/placeholder.png" alt="placeholder" width="30px">
+                            <p>1911 Landings Dr, Mountain View, CA 94043</p>
+                            <img src="images/email.png" alt="placeholder" width="30px">
+                            <p>info@example.com</p>
+                            <img src="images/phone-call.png" alt="placeholder" width="30px">
+                            <p>(555) 555-5555</p>
+                        </div>
+                </div>  
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3168.7440065577184!2d-122.0876504!3d37.41952519999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1716517781404!5m2!1spt-BR!2sbr" width="700" height="600"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="employee-list">
+                <h2 class="employee-h2">Meet our team</h2>
+                <div class="employee-div">
+                    
+                    <img class="employee-pic" src="images/employee-001.jpg" alt="">
+                    <h1>Bruno Smith</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  </p>
+                </div>
+                <div class="employee-div">
+                    <img class="employee-pic" src="images/employee-002.jpg" alt="">
+                    <h1>Charles Jesen</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  </p>
+                </div>
+                <div class="employee-div">
+                    <img class="employee-pic" src="images/employee-003.jpg" alt="">
+                    <h1>Zoe Blacksmith</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.   </p>
+                </div>
+            </section>
+            <h2 class="form-title">Send Us a Message</h2>
+            <h3 class="form-p">Send us a message and we'll respond within 24 hours</h3>
+            <form action="/submit_form" method="POST">
+
+                <div class="form-line-2">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+        
+                <div>
+                    <label class="form-bold" for="purpose">Purpose of the Message:</label>
+                        <div>
+                            <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                            <label for="general">General Inquiry</label><br>
+                            <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                            <label for="reservation">Reservation Question</label><br>
+                            <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+        
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+        
+                <div class="form-group">
+                    <button type="submit">Submit Your Message</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>&copy;2024 White Water Rafting | Rafael Silva </p>
+            <nav>
+                <a href="https://facebook.com">
+                    <img src="images/facebook-logo-icon.svg" alt="facebook" >
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/instagram-icon.svg" alt="twitter" >
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/twitter-logo.svg" alt="instagram" >
+                </a>
+            </nav>
+        </footer>
+    </body>
+<!-- modified: 05/23/24 -->
+</html>
