@@ -55,48 +55,50 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.   </p>
                 </div>
             </section>
-            <h2 class="form-title">Send Us a Message</h2>
-            <h3 class="form-p">Send us a message and we'll respond within 24 hours</h3>
-            <form action="/submit_form" method="POST">
+            <section>
+                <h2 class="form-title">Send Us a Message</h2>
+                <h3 class="form-p">Send us a message and we'll respond within 24 hours</h3>
+                <form action="/submit_form" method="POST">
 
-                <div class="form-line-2">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
+                    <div class="form-line-2">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+            
+                    <div>
+                        <label class="form-bold" for="purpose">Purpose of the Message:</label>
+                            <div>
+                                <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                                <label for="general">General Inquiry</label><br>
+                                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                                <label for="reservation">Reservation Question</label><br>
+                                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                                <label for="suggestion">Website Suggestion</label>
+                            </div>
                     </div>
             
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                </div>
-        
-                <div>
-                    <label class="form-bold" for="purpose">Purpose of the Message:</label>
-                        <div>
-                            <input type="radio" id="general" name="purpose" value="General Inquiry" required>
-                            <label for="general">General Inquiry</label><br>
-                            <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                            <label for="reservation">Reservation Question</label><br>
-                            <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                            <label for="suggestion">Website Suggestion</label>
-                        </div>
-                </div>
-        
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-        
-                <div>
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                </div>
-        
-                <div class="form-group">
-                    <button type="submit">Submit Your Message</button>
-                </div>
-            </form>
+            
+                    <div>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+            
+                    <div class="form-group">
+                        <button type="submit">Submit Your Message</button>
+                    </div>
+                </form>
+            </section>
         </main>
         <footer>
             <p>&copy;2024 White Water Rafting | Rafael Silva </p>
@@ -113,5 +115,5 @@
             </nav>
         </footer>
     </body>
-<!-- modified: 05/23/24 -->
+<!-- modified: 05/25/24 -->
 </html>
