@@ -8,10 +8,14 @@
 
 body {
     font-family: "Lato", sans-serif;
-    max-width: 1200px;
+    width: 100%;
     padding: 0px;
     margin: 0 auto; 
     background-color:#ffffff ;
+}
+
+body .body-home {
+    width: 100%;
 }
 
 .hero {
@@ -107,6 +111,8 @@ article {
     border-radius: 20px;
     color: #ffffff;
 }
+
+
 /* ----------- maps --------------- */
 .map {
     display: grid;
@@ -183,9 +189,7 @@ header img {
 .grid-menu {
     display: grid;
     grid-template-columns: 1fr 2fr;
-
 }   
-
 
 nav {
     border-radius: 40px;
@@ -194,53 +198,47 @@ nav {
     display: flex;
     text-decoration: none;
 }
-
 .line {
-    padding: 20px;
-    padding-bottom: 50px;
+    
+    padding: 20px 0 50px 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
+    margin: 0 auto;
 }
-
 .pic-adventure {
     display: flex;
     flex-wrap: wrap;
 }
-
 .pic-items p {
     text-align: center;
     width: 100%;
 }
-
 .pic-items img {
     width: 200px;
     height: 150px;
     display: flex;
     border-radius: 10px;
 }
-
 nav a {
     display: flex;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
-
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
-
 nav a:hover {
     border-radius: 10px;
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-
 main{
     position: relative;
     padding: 0px 0px;
-
+    width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -308,6 +306,216 @@ form {
     font-weight: bold;
 }
 
+/*  ------- main text ------  */
+.center-text {
+    text-align: center;
+    font-family: lato, bold;
+    font-size: 1.2rem;
+    color: #0056b3;
+}
+.center-text-h3 {
+    text-align: center;
+    padding: 10px;
+}
+.center-text-p {
+    text-align: center;
+    padding: 10px;
+}
+.center-text-p-2 {
+    text-align: center;
+    padding: 10px;
+    color: #ccc;
+}
+
+
+
+/* ----------- main ----------- */
+.trips-descriptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    background-color: #cccccc52;
+    padding: 60px;
+}
+.trips-descriptions-img {
+    width: 335px;
+    max-height: 60%;
+    border-radius: 10px;
+}
+/*  ----- new home -------- */
+.container-2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.hero-2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    color: white;
+    text-align: center;
+    background: url('images/Bg_rafing_hero.jpeg') no-repeat center center/cover;
+}
+
+.opacity-hero {
+    opacity: 80%;
+}
+.hero-2 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #fff;
+    font-size: 2.4rem;
+    text-shadow: 5px 5px 15px #000;
+}
+.newsletter-signup {
+    margin: 40px 0;
+    text-align: center;
+}
+.newsletter-signup form {
+    display: inline-block;
+}
+.newsletter-signup input[type="text"],
+.newsletter-signup input[type="email"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.newsletter-signup input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #396E94;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+.cta a {
+    padding: 15px 30px;
+    background-color: #396E94;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.11);
+    padding: 20px;
+    border: 0px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 25px #0000001c;
+}
+.grid-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* ------ table ------ */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 80px 0;
+    background-color: var(--backgroud-color-grey);    
+}
+.container h1 {
+    padding: 20px;
+    font-size: 3rem;
+    text-align: center;
+    background-color: var(--backgroud-color-grey);
+}
+.container h2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #ffffff17;
+}
+.container-table {
+    width: 80%;
+    display: block;
+    margin: auto;
+
+}
+.trip {
+    margin-bottom: 40px;
+}
+.trip img {
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+    padding: 15px;
+}
+.trip h3 {
+    font-family: lato;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.trip p {
+    padding: 10px;
+    font-size: 0.8em;
+}
+.trip-details {
+    font-size: 1em;
+    list-style-type: none;
+    padding: 10px;
+}
+.trip-details li {
+    margin-bottom: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+th {
+    background-color: #396E94;
+    color: white;
+}
+
+.section-button {
+    margin: 40px;
+}
+.button {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    background-color:var(--nav-bacground-color);
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 25px;
+    box-shadow: 5px 7px 4px #ffffff81;
+}
+.button a {
+    text-decoration: none;
+    font-family: lato, bold;
+    color: #fff;
+    padding: 0 40px;
+    font-size: 2rem;
+}
+
 
 /* ---------- section --------------- */
 section {
@@ -335,9 +543,9 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     align-items: center;
-    width: 1200px;
+    width: 100%;
     background-color: #f0d993;
-    padding: 5%;
+    padding-bottom: 5%;
 }
 footer p {
     text-align: center;
@@ -372,6 +580,7 @@ footer nav {
     --secondary-color: #e7c24f;
     --accent1-color: #f0d993;
     --accent2-color: #b6d0e2;
+    --backgroud-color-grey : #e9e9e952;
 
     --heading-font: "Poetsen One", bold;
     --paragraph-font: "Lato", bold;
