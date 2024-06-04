@@ -429,7 +429,7 @@ form {
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 0.11);
-    padding: 20px;
+    padding: 20px 20px 80px 20px;
     border: 0px solid #ddd;
     border-radius: 15px;
     text-align: center;
